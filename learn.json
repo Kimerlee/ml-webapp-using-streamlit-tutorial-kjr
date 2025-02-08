@@ -1,6 +1,9 @@
 {
 	"slug" : "ml-webapp-using-streamlit-tutorial",
-	"title" : "ML web app using Streamlit tutorial",
+	"title" : {
+		"us": "ML web app using Streamlit tutorial",
+		"es": "Aplicación web ML con el tutorial Streamlit"
+	},
 	"preview": "https://github.com/4GeeksAcademy/ml-webapp-using-streamlit-tutorial/blob/main/preview.png?raw=true",
 	"status": "published",
 	"translations": ["us"],
@@ -8,6 +11,13 @@
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 1,
-    "projectType": "project",
-	"description" : "Use Streamlit to create a machine learning web application."
+        "projectType": "project",
+	"autoPlay": false,
+	"description" : {
+"us": "Use Streamlit to build an interactive web application that integrates a machine learning model. This will allow users to input data, make predictions, and visualize results in a user-friendly interface.",
+		"es": "Usa Streamlit para crear una aplicación web interactiva que integre un modelo de aprendizaje automático. Esto permitirá a los usuarios ingresar datos, hacer predicciones y visualizar resultados en una interfaz fácil de usar"
+},
+	"telemetry": {
+        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=450"
+    }
 }
